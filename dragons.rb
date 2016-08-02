@@ -91,7 +91,8 @@ def run_game(url, logger)
   result["status"]
 end
 
-logger = Logger.new("./logs/#{Time.now.strftime('%F_%H%M%S')}_Battle.log")
+Dir.mkdir('dragon_logs') unless File.exists?('dragon_logs')
+logger = Logger.new("./dragon_logs/#{Time.now.strftime('%F_%H%M%S')}_Battle.log")
 
 n = 10 # Number of games to run
 v = 0 # Initialize number of Victories

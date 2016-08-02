@@ -1,3 +1,6 @@
 #Dragons of Mugloar
-Programming challenge using APIs
+
+Completed programming challenge using APIs.
+
+
 Instructions at: http://www.dragonsofmugloar.com/
